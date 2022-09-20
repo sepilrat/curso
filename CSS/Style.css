@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color:red;
+}
+
+
+.main__header {
+  background-color: #050529;
+  position: fixed;
+  width: 100vw;
+  height: 55px;
+  display: grid;
+  grid-template-columns: 200px auto;
+  justify-content: space-around;
+  align-items: left;
+
+}
+.main__header a{
+  text-decoration: none;
+  color: white;
+}
+.main__header__nav {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: end;
+  gap: 0 20
+}
+.main__principal{
+  display: block;
+}
+#image__Servers{
+  position:relative;
+ 
+}
+
+#image__servers__text {
+  position: absolute;
+   top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 20px;
+  background-color: brown;
+}
